@@ -1,0 +1,527 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Enterprise' Language: 'en' Physical Memory: 16016 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-02-09T00:02:09Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351" at "2026-02-09T00:02:09.5423843Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker14
+-projectPath
+C:/Users/20231351/My project
+-logFile
+Logs/AssetImportWorker14.log
+-srvPort
+50674
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/20231351/My project
+C:/Users/20231351/My project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18452]  Target information:
+
+Player connection [18452]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 377802420 [EditorId] 377802420 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18452]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 377802420 [EditorId] 377802420 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18452] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18452] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 5072, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              8ea97e65c1794ddbafd702e8653b8b49
+  Correlation Id:          5eeabede7029114c3f54ba53854b34c1
+  External correlation Id: 7273475162853283192
+  Machine Id:              k/RkFSMiVZ8SHQr4NiN/DINruWw=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-20231351" (connect: 0.00s, validation: 0.00s, handshake: 0.06s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351-notifications" at "2026-02-09T00:02:09.6085538Z"
+[Licensing::Module] Licensing Background thread has ended after 0.07s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.62f1 (f99f05b3e950)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/20231351/My project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA RTX A1000 Laptop GPU (ID=0x25b9)
+    Vendor:   NVIDIA
+    VRAM:     3965 MB
+    Driver:   32.0.15.7371
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56804
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010747 seconds.
+- Loaded All Assemblies, in  0.414 seconds
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.436 seconds
+Domain Reload Profiling: 846ms
+	BeginReloadAssembly (127ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (175ms)
+		LoadAssemblies (125ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (169ms)
+				TypeCache.ScanAssembly (154ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (389ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (91ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (69ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.897 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.851 seconds
+Domain Reload Profiling: 1740ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (576ms)
+		LoadAssemblies (427ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (262ms)
+			TypeCache.Refresh (193ms)
+				TypeCache.ScanAssembly (173ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (852ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (608ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (396ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6113 unused Assets / (5.6 MB). Loaded Objects now: 6818.
+Memory consumption went from 136.2 MB to 130.6 MB.
+Total: 20.519300 ms (FindLiveObjects: 3.061200 ms CreateObjectMapping: 1.733400 ms MarkObjects: 8.405400 ms  DeleteObjects: 7.315300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 30444.954862 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Flower Pot/Materials/Flower Pot_mat.mat
+  artifactKey: Guid(15038c82480b1314481525793e848e74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Flower Pot/Materials/Flower Pot_mat.mat using Guid(15038c82480b1314481525793e848e74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8a2d60fc2327b69fab18f7febe7c147c') in 0.3629826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Textures/Clay Jar_c01-c08_Roughness.png
+  artifactKey: Guid(d92a9c50b6780af4bace2267fe2ad6ec) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Textures/Clay Jar_c01-c08_Roughness.png using Guid(d92a9c50b6780af4bace2267fe2ad6ec) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c130972558d1d1a6ef86f1adf0a08148') in 0.0750482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Cauldron/Textures/Cauldron_Metalness.png
+  artifactKey: Guid(dc09b45075584d742838a85d0300f92a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Cauldron/Textures/Cauldron_Metalness.png using Guid(dc09b45075584d742838a85d0300f92a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3530fb89ad3cf85598b9c9ec41793025') in 0.0165052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Materials/Jar_BlueRed_c01-c10_mat.mat
+  artifactKey: Guid(aa388112b144e92459d3f3049cefa621) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Materials/Jar_BlueRed_c01-c10_mat.mat using Guid(aa388112b144e92459d3f3049cefa621) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a625911b72d9140d165ede78d54be6ea') in 0.010078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase/Materials
+  artifactKey: Guid(64ec4ad277f57204b8e1b915dd845fcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase/Materials using Guid(64ec4ad277f57204b8e1b915dd845fcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c41758310a3c16b72ca59725fa9d5440') in 0.0038772 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Materials/Clay Kettle Cracked_mat.mat
+  artifactKey: Guid(2fb4338ad542f504fb0084f96ecb97f6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Materials/Clay Kettle Cracked_mat.mat using Guid(2fb4338ad542f504fb0084f96ecb97f6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b44d2853c1145d45579bfcbda9433d9') in 0.012797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Breakable Containers
+  artifactKey: Guid(7dc600f9b5a7fa144b83798bd76735de) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers using Guid(7dc600f9b5a7fa144b83798bd76735de) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a230a8fcbe3313ea513a01e550ea3d8') in 0.0035166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Cauldron Cracked/Textures/Cauldron Cracked_Diffuse.png
+  artifactKey: Guid(353bdbdcdad719d40a65f5c165db47bb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Cauldron Cracked/Textures/Cauldron Cracked_Diffuse.png using Guid(353bdbdcdad719d40a65f5c165db47bb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3018e5ff4cfd0222c7637e3ee02b0a8f') in 0.0101889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Flower Pot
+  artifactKey: Guid(a62f3d6507d271545ad19320efb74b89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Flower Pot using Guid(a62f3d6507d271545ad19320efb74b89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b883fe6b3faeb181413af6bac2c7e5a6') in 0.0025323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Materials
+  artifactKey: Guid(277ac2b6a2cc28649969f2f04c41e134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Materials using Guid(277ac2b6a2cc28649969f2f04c41e134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '13078afacb0ec92a25c232d5ec601594') in 0.0032903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Vase Cracked/Textures/Vase Cracked_Roughness.png
+  artifactKey: Guid(d19b6b129c0da674da3b87de47b09689) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Vase Cracked/Textures/Vase Cracked_Roughness.png using Guid(d19b6b129c0da674da3b87de47b09689) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fe3bd5b4d60d016904f525e7737c6de') in 0.0104648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Meshes
+  artifactKey: Guid(24afe402f5594b844ab8222e6faacad8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Meshes using Guid(24afe402f5594b844ab8222e6faacad8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3c44c7dc74e8ab183558072bcef0d6df') in 0.0038659 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Breakable Containers/Prefabs/Normal/Jar_BrownPurple.prefab
+  artifactKey: Guid(fc7bd829fc3e7fc44b5b517e83061ee5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Prefabs/Normal/Jar_BrownPurple.prefab using Guid(fc7bd829fc3e7fc44b5b517e83061ee5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4a343ff2a8027757d180586ee605753') in 0.0336314 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar Cracked/Meshes
+  artifactKey: Guid(7ea014c81e0efdc4f8fee798993acc90) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar Cracked/Meshes using Guid(7ea014c81e0efdc4f8fee798993acc90) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4ee426b84500965371b27b322c1a72a9') in 0.0035927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Breakable Containers/Prefabs/Normal/Clay Jar.prefab
+  artifactKey: Guid(67e1f11333672b74aa420ecf5309fe15) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Prefabs/Normal/Clay Jar.prefab using Guid(67e1f11333672b74aa420ecf5309fe15) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4f2f749debe4b2fa8b88d50a408035c2') in 0.0083318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Kettle/Textures/Kettle Handle__PBR_Normal.png
+  artifactKey: Guid(a9c7bdb77d364f34a825ba2d144a54d2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Kettle/Textures/Kettle Handle__PBR_Normal.png using Guid(a9c7bdb77d364f34a825ba2d144a54d2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d09be36e043514583ac283860848256') in 0.0126977 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Breakable Containers/Demo Scene
+  artifactKey: Guid(7064007269b99fe48b2f47ec6e17392b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Demo Scene using Guid(7064007269b99fe48b2f47ec6e17392b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c3db38e06748b5449e155d0ef0f1b18c') in 0.0042049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Textures
+  artifactKey: Guid(b7a2b73e895ffe349b311687086c04c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Textures using Guid(b7a2b73e895ffe349b311687086c04c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8fb5ad0e1e0680865646070ed9acd086') in 0.0035147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Meshes
+  artifactKey: Guid(02825344c2626f3458d6890a9345a05c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Meshes using Guid(02825344c2626f3458d6890a9345a05c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3f2df8035fbd432ae2a763c2eb26989e') in 0.0030326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Meshes/Clay Kettle Cracked.fbx
+  artifactKey: Guid(a0418226b14a7514db2b1116de112013) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Meshes/Clay Kettle Cracked.fbx using Guid(a0418226b14a7514db2b1116de112013) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72069c803330183add3f86e1aec944b7') in 0.0459681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 55
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.746 seconds
+Domain Reload Profiling: 1465ms
+	BeginReloadAssembly (208ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (442ms)
+		LoadAssemblies (366ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (167ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (142ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (747ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (573ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6121 unused Assets / (5.1 MB). Loaded Objects now: 6839.
+Memory consumption went from 147.3 MB to 142.2 MB.
+Total: 13.134000 ms (FindLiveObjects: 1.208000 ms CreateObjectMapping: 1.376100 ms MarkObjects: 6.387100 ms  DeleteObjects: 4.160700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.325970 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Prefabs/WineGlass.prefab
+  artifactKey: Guid(b4e1cabd43824c740a2c77b5d6c6b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yuetility-Studios/YueDestructible/Prefabs/WineGlass.prefab using Guid(b4e1cabd43824c740a2c77b5d6c6b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44408d252dd2993af9c7d492909fb401') in 0.534343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.509843 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Prefabs/WineGlass.prefab
+  artifactKey: Guid(b4e1cabd43824c740a2c77b5d6c6b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Yuetility-Studios/YueDestructible/Prefabs/WineGlass.prefab using Guid(b4e1cabd43824c740a2c77b5d6c6b6ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4718f77a44b2b68eb6453e2eab04406a') in 0.0813364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 135
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.721 seconds
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.761 seconds
+Domain Reload Profiling: 1481ms
+	BeginReloadAssembly (211ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (436ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (130ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (762ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (589ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (144ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 1.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6117 unused Assets / (5.7 MB). Loaded Objects now: 6873.
+Memory consumption went from 155.7 MB to 149.9 MB.
+Total: 19.998500 ms (FindLiveObjects: 1.003000 ms CreateObjectMapping: 0.961200 ms MarkObjects: 9.672100 ms  DeleteObjects: 8.360100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
