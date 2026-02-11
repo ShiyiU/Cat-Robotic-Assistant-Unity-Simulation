@@ -7,17 +7,12 @@ namespace SojaExiles
 {
     public class PlayerMovement : MonoBehaviour
     {
-        [SerializeField] private GameObject livingRoomViewCanvas; 
-        [SerializeField] private Camera playerCamera;
-        [SerializeField] private Camera livingRoomCamera; 
-
         public float moveForce = 35f;
         public float verticalForce = 35f;
         public float maxSpeed = 8f;
         public float damping = 10f;
 
         private Rigidbody rb;
-        private bool roomView; 
 
         void Awake()
         {
@@ -29,36 +24,13 @@ namespace SojaExiles
             rb.collisionDetectionMode = CollisionDetectionMode.Continuous;
         }
 
-        private void ChangeToRoomView()
-        {
-            playerCamera.enabled = false;
-            livingRoomCamera.enabled = true;
-            roomView = true;
-            livingRoomViewCanvas.SetActive(roomView);
-        }
-
-        private void ChangeToPlayerView()
-        {
-            livingRoomCamera.enabled = false; 
-            playerCamera.enabled = true;
-            roomView = false;
-            livingRoomViewCanvas.SetActive(roomView);
-        }
-
-        private void Update()
-        {
-            if (Input.GetKeyDown(KeyCode.Q) && !roomView)
-            {
-                ChangeToRoomView();
-            }
-            else if (Input.GetKeyDown(KeyCode.Q) && roomView)
-            {
-                ChangeToPlayerView();
-            }
-        }
-
         void FixedUpdate()
         {
+            if (ControlManager.Instance.currentCamState != CameraState.FREE_VIEW)
+            {
+                return; 
+            }
+
             float x = Input.GetAxis("Horizontal");
             float z = Input.GetAxis("Vertical");
 
@@ -88,6 +60,11 @@ namespace SojaExiles
             {
                 rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
             }
+        }
+
+        private void OnCollisionEnter(Collision collision)
+        {
+            Debug.Log(collision.gameObject);
         }
     }
 }
