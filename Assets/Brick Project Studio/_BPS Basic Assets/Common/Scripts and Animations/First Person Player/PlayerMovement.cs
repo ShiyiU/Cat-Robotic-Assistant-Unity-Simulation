@@ -11,6 +11,7 @@ namespace SojaExiles
         public float verticalForce = 35f;
         public float maxSpeed = 8f;
         public float damping = 10f;
+        public float rotateRate = 10f; 
 
         private Rigidbody rb;
 
@@ -31,8 +32,8 @@ namespace SojaExiles
                 return; 
             }
 
-            float x = Input.GetAxis("Horizontal");
-            float z = Input.GetAxis("Vertical");
+            float x = Input.GetKey(KeyCode.D) ? 1 : (Input.GetKey(KeyCode.A) ? -1 : 0);
+            float z = Input.GetKey(KeyCode.W) ? 1 : (Input.GetKey(KeyCode.S) ? - 1 : 0);
 
             float y = 0f;
             if (Input.GetKey(KeyCode.Space)) y += 1f;
@@ -60,7 +61,55 @@ namespace SojaExiles
             {
                 rb.linearVelocity = rb.linearVelocity.normalized * maxSpeed;
             }
+
+            if (Input.GetKey(KeyCode.UpArrow))
+            {
+                TurnVertically(-rotateRate);
+            }
+            else if (Input.GetKey(KeyCode.DownArrow))
+            {
+                TurnVertically(rotateRate);
+            }
+            
+            if (Input.GetKey(KeyCode.LeftArrow))
+            {
+                TurnHorizontally(-rotateRate);
+            } else if (Input.GetKey(KeyCode.RightArrow))
+            {
+                TurnHorizontally(rotateRate);
+            }
         }
+
+        private void TurnHorizontally(float amount)
+        {
+            Vector3 angles = transform.localEulerAngles;
+
+            // Note: Unity stores angles in 0–360 degrees, not -180 to 180
+            float yAngle = angles.y;
+
+            // Apply rotation amount
+            yAngle += amount * Time.deltaTime;
+
+            // Assign back
+            angles.y = yAngle;
+            transform.localEulerAngles = angles;
+        }
+
+        private void TurnVertically(float amount)
+        {
+            Vector3 angles = transform.localEulerAngles;
+
+            // Note: Unity stores angles in 0–360 degrees, not -180 to 180
+            float zAngle = angles.x;
+
+            // Apply rotation amount
+            zAngle += amount * Time.deltaTime;
+
+            // Assign back
+            angles.x = zAngle;
+            transform.localEulerAngles = angles;
+        }
+
 
         private void OnCollisionEnter(Collision collision)
         {

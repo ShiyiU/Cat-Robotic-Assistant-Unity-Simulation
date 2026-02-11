@@ -1,9 +1,9 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351" at "2026-02-11T13:22:43.3177833Z"
 Built from '6000.0/staging' branch; Version is '6000.0.62f1 (f99f05b3e950) revision 16359173'; Using compiler version '193933523'; Build Type 'Release'
 OS: 'Windows 11  (10.0.26200) 64bit Enterprise' Language: 'en' Physical Memory: 16016 MB
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351" at "2026-02-11T21:54:50.1937918Z"
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-Date: 2026-02-11T13:22:43Z
+Date: 2026-02-11T21:54:50Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.0.62f1\Editor\Unity.exe
@@ -17,7 +17,7 @@ C:/Users/20231351/Documents/GitHub/Cat-Robotic-Assistant-Unity-Simulation
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-54113
+59190
 -licensingIpc
 LicenseClient-20231351
 -job-worker-count
@@ -65,29 +65,29 @@ C:/Users/20231351/Documents/GitHub/Cat-Robotic-Assistant-Unity-Simulation
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19476]  Target information:
+Player connection [7412]  Target information:
 
-Player connection [19476]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 945025406 [EditorId] 945025406 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7412]  * "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1606912371 [EditorId] 1606912371 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19476]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 945025406 [EditorId] 945025406 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [7412]  * "[IP] 192.168.1.36 [Port] 0 [Flags] 2 [Guid] 1606912371 [EditorId] 1606912371 [Version] 1048832 [Id] WindowsEditor(7,S20231351) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [19476] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [19476] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [7412] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [7412] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
-[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 6392, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 12696, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
 [Licensing::Module] LicensingClient has failed validation; ignoring
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.3+a4e98f1
-  Session Id:              9c1d88f609e846c1a5d0d86b7eaf70a2
-  Correlation Id:          939acebcf2408e50a840703271169e47
-  External correlation Id: 6153337847263524082
+  Session Id:              a3e0e76260dd46e89c4d137cf5e8789f
+  Correlation Id:          a68f6a24e9589ea5f2d918bd209bbcee
+  External correlation Id: 8648114586637306308
   Machine Id:              k/RkFSMiVZ8SHQr4NiN/DINruWw=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-20231351" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351-notifications" at "2026-02-11T13:22:43.359463Z"
-[Licensing::Module] Licensing Background thread has ended after 0.04s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-20231351" (connect: 0.00s, validation: 0.00s, handshake: 0.05s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-20231351-notifications" at "2026-02-11T21:54:50.2410815Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
 Library Redirect Path: Library/
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
@@ -95,7 +95,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.62f1 (f99f05b3e950)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Resources/UnitySubsystems
@@ -111,7 +111,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56652
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
@@ -127,40 +127,40 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/
   Type: Assigned
   Expiration: Unlimited
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.62f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Registered in 0.009382 seconds.
-- Loaded All Assemblies, in  0.357 seconds
+Registered in 0.010694 seconds.
+- Loaded All Assemblies, in  0.484 seconds
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.319 seconds
-Domain Reload Profiling: 673ms
-	BeginReloadAssembly (114ms)
+- Finished resetting the current domain, in  0.293 seconds
+Domain Reload Profiling: 775ms
+	BeginReloadAssembly (158ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (144ms)
-		LoadAssemblies (111ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (238ms)
+		LoadAssemblies (155ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (139ms)
-				TypeCache.ScanAssembly (127ms)
+		AnalyzeDomain (234ms)
+			TypeCache.Refresh (233ms)
+				TypeCache.ScanAssembly (221ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (319ms)
+	FinalizeReload (293ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (281ms)
+		SetupLoadedEditorAssemblies (259ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (73ms)
+			InitializePlatformSupportModulesInManaged (66ms)
 			SetLoadedEditorAssemblies (3ms)
-			BeforeProcessingInitializeOnLoad (50ms)
-			ProcessInitializeOnLoadAttributes (109ms)
-			ProcessInitializeOnLoadMethodAttributes (46ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (101ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -180,8 +180,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.790 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.719 seconds
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
@@ -192,47 +192,1615 @@ Package Manager log level set to [2]
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.733 seconds
-Domain Reload Profiling: 1517ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.706 seconds
+Domain Reload Profiling: 1420ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (498ms)
+		LoadAssemblies (371ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (208ms)
+			TypeCache.Refresh (150ms)
+				TypeCache.ScanAssembly (137ms)
+			BuildScriptInfoCaches (45ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (465ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (94ms)
+			ProcessInitializeOnLoadAttributes (299ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (5.7 MB). Loaded Objects now: 7127.
+Memory consumption went from 148.0 MB to 142.2 MB.
+Total: 15.918400 ms (FindLiveObjects: 1.859200 ms CreateObjectMapping: 1.162000 ms MarkObjects: 8.048400 ms  DeleteObjects: 4.847400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 19630.752529 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02 1/Post Process Vector.asset
+  artifactKey: Guid(9299d281effd48045bbe4e651b32c7ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02 1/Post Process Vector.asset using Guid(9299d281effd48045bbe4e651b32c7ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '82d8a772469f464c9c7e3d72f3cad8e6') in 0.1803576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer
+  artifactKey: Guid(d9c73e9798b69d04da8296ecc1cb4dc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer using Guid(d9c73e9798b69d04da8296ecc1cb4dc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e5ef8445f94f2607e14f0efc6bed0929') in 0.0041734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets
+  artifactKey: Guid(1fefdc64112392844841a44ee966f389) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets using Guid(1fefdc64112392844841a44ee966f389) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92baa292e0a6be517ec8c6e019156131') in 0.0030012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding
+  artifactKey: Guid(29c8994efe59f524c826b81ad35b574a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding using Guid(29c8994efe59f524c826b81ad35b574a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a97e6c36da20bb44be4363fd8534d1e9') in 0.003589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Meshes
+  artifactKey: Guid(0ad6285471d62e34ea9d829f62065390) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Meshes using Guid(0ad6285471d62e34ea9d829f62065390) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9d615bf4aece7b194352861bfeb17f2c') in 0.0029472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Flower Pot Cracked/Meshes
+  artifactKey: Guid(24866a7a9a9c75340b27297e5e6a4f11) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Flower Pot Cracked/Meshes using Guid(24866a7a9a9c75340b27297e5e6a4f11) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26d748088c984e4454f3e1b978256d57') in 0.0045363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics
+  artifactKey: Guid(6e88a5a6fd85244439a03a3746000887) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics using Guid(6e88a5a6fd85244439a03a3746000887) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '383ff84696196d0c9b657b56b12fd5eb') in 0.0043193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked
+  artifactKey: Guid(54700f25a3550704fbf031e1cec34eb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked using Guid(54700f25a3550704fbf031e1cec34eb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc19d8fd86bc892998f11fc3ea4b9a1a') in 0.0030027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar_BlueRed/Textures
+  artifactKey: Guid(797beddb24ce3f14db08790e1dee7e10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar_BlueRed/Textures using Guid(797beddb24ce3f14db08790e1dee7e10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bc70cd32f08b40708302961cadd0a6ab') in 0.003829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit
+  artifactKey: Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit using Guid(6315d9097f0ef714cb63b945663ecbb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dec721d7372b12369c64a83a1c530e69') in 0.003097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures
+  artifactKey: Guid(b0dadda7b2424c34f998779ff5628811) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures using Guid(b0dadda7b2424c34f998779ff5628811) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9849dfad9074013aeb42739859eac22f') in 0.003682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Textures
+  artifactKey: Guid(5d0fa92dc4804b44fa54904438e5fd10) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Textures using Guid(5d0fa92dc4804b44fa54904438e5fd10) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6eaf8f00b489b6e2c7a47fb961483726') in 0.004282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Flower Pot Cracked
+  artifactKey: Guid(73e782d1a7bd1c440be7a1efd7abc02c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Flower Pot Cracked using Guid(73e782d1a7bd1c440be7a1efd7abc02c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '598c195d74a4bac563822965d9ad5eef') in 0.0034794 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows
+  artifactKey: Guid(47b6069078bfa834a916d9bed2d68b24) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows using Guid(47b6069078bfa834a916d9bed2d68b24) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ae2eb861ad33e228ec5aea10e9f0ad8') in 0.0034541 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked
+  artifactKey: Guid(2d1f105178c2a5a4697a2754f140d718) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked using Guid(2d1f105178c2a5a4697a2754f140d718) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3ed92f8900f2e5936b49d73a8197aa6b') in 0.0037917 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire
+  artifactKey: Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire using Guid(4a8014ef20b900f46b698a159b6ffb23) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d71040fe9ee504493308d51828052f9') in 0.0050956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7e809cb2661dd7e419798a5f0797cce4') in 0.0034822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Cauldron/Materials
+  artifactKey: Guid(6b83c8a9a7a51764eab62701c0c09dc1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Cauldron/Materials using Guid(6b83c8a9a7a51764eab62701c0c09dc1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24abcb05147ac72bd0c0210934fa96e8') in 0.0037544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar/Textures
+  artifactKey: Guid(fc6c7fb1a09215c42ab0c2657a5f13e5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar/Textures using Guid(fc6c7fb1a09215c42ab0c2657a5f13e5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3d0dea621d6af0f409670c23c8adc926') in 0.0052981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Cauldron Cracked
+  artifactKey: Guid(c32441ec7c9490e4895a42c02d0388cd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Cauldron Cracked using Guid(c32441ec7c9490e4895a42c02d0388cd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e60c7685ef6c2656ecb7d17b78f097dd') in 0.0044148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Kettle/Textures
+  artifactKey: Guid(ed74260d60d5dc84487b3e9c484594b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Kettle/Textures using Guid(ed74260d60d5dc84487b3e9c484594b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9aa36a3e62d788b933b252ca3f64a792') in 0.0026842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Yuetility-Studios
+  artifactKey: Guid(83d4b3607ad9c4047aa283a4e3f2ad8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios using Guid(83d4b3607ad9c4047aa283a4e3f2ad8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ab409a774b85b598a514e5d8e69a68f') in 0.0037537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Textures
+  artifactKey: Guid(8f48fd713cb5910498d0765d46c49b35) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Kettle Cracked/Textures using Guid(8f48fd713cb5910498d0765d46c49b35) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1bcf2775320e25710fecfc70e8a6aef') in 0.0044152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Flower Pot/Materials
+  artifactKey: Guid(caf8ca8061e7acc41b49c761e185b833) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Flower Pot/Materials using Guid(caf8ca8061e7acc41b49c761e185b833) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '92815eb64524c1e0bd0d6dea91850853') in 0.0036432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Vase Tall Cracked/Meshes
+  artifactKey: Guid(31d4003df824f67468a597394bc76f51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Vase Tall Cracked/Meshes using Guid(31d4003df824f67468a597394bc76f51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9acbe0b825edad4a86c314fedc7c082a') in 0.0041135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs
+  artifactKey: Guid(478f19f2b564b5a459ccd72d2ea6afe1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/MouseLook.cs using Guid(478f19f2b564b5a459ccd72d2ea6afe1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '65e42b7e281db2bb9a3dc0097bb95a17') in 0.0119562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom
+  artifactKey: Guid(30fe921ee9d943c428556539bba76b97) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom using Guid(30fe921ee9d943c428556539bba76b97) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '34269a8621992530a8b9ab34aef81302') in 0.0031437 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Cat Props/Electrical Hazards
+  artifactKey: Guid(fc2b86543148f1b48b524f2515f23bb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cat Props/Electrical Hazards using Guid(fc2b86543148f1b48b524f2515f23bb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '008cfea872bbd752cb835b746848322d') in 0.002707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar_BlueRed
+  artifactKey: Guid(d90f0e61b3ea2a84fbe436f4884cdc2a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar_BlueRed using Guid(d90f0e61b3ea2a84fbe436f4884cdc2a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac2a0aaaf10dfdd35f4e1d8d1bb29c27') in 0.0026465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings
+  artifactKey: Guid(8aabb977e9ba2c642a39cd81456c2e2e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors Ceilings using Guid(8aabb977e9ba2c642a39cd81456c2e2e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '72f5f662b98e3dfbbfbbbb08eae248c1') in 0.0032806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Breakable Containers/Items/Cracked
+  artifactKey: Guid(006b5e296a793c940ae38aededc9b5ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked using Guid(006b5e296a793c940ae38aededc9b5ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3a2742a4858b4e3718008d1ad317802') in 0.0035685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase Cubic/Materials
+  artifactKey: Guid(9cad15a76c9241d4c8f4955078989854) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase Cubic/Materials using Guid(9cad15a76c9241d4c8f4955078989854) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9145584e42168b28d279048667effc02') in 0.003959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom
+  artifactKey: Guid(226296606f5d6a7448cfcc5294e66b37) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom using Guid(226296606f5d6a7448cfcc5294e66b37) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1737ff22ae0b206ab73a2d18086a9f3d') in 0.0035795 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Cauldron Cracked/Materials
+  artifactKey: Guid(1995eff11b55fbc4587a625c1015e112) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Cauldron Cracked/Materials using Guid(1995eff11b55fbc4587a625c1015e112) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3635070df9711b4c040b542fdabad539') in 0.0025909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase Cubic/Textures
+  artifactKey: Guid(720b6c85086d45644be0656a69e2d344) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase Cubic/Textures using Guid(720b6c85086d45644be0656a69e2d344) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4dc76a1f3339663b07f911eea3998b98') in 0.0032487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs
+  artifactKey: Guid(649241ef9c251474b94590041f0e00d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs using Guid(649241ef9c251474b94590041f0e00d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c08bf3c6f93b3c091eddab7fd90c581') in 0.0034928 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset
+  artifactKey: Guid(4c9a7fe8bcebeb944b0d37b34d7abb47) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset using Guid(4c9a7fe8bcebeb944b0d37b34d7abb47) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e809941d1bbabba95f0ab9ad06c1ae6') in 0.0062268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Cat Props/Toxic Bathroom Items
+  artifactKey: Guid(8aa58b387cc18ec4a939fa5dc86c64f2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cat Props/Toxic Bathroom Items using Guid(8aa58b387cc18ec4a939fa5dc86c64f2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64278a5af44cc59fb3fe122822550375') in 0.0040102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/TutorialInfo/Icons
+  artifactKey: Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Icons using Guid(8a0c9218a650547d98138cd835033977) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a02189d7b3c76863ccc970b7e5f23ab7') in 0.0038433 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cat Props/Toxic Plants
+  artifactKey: Guid(90f979ec5ef799942adc442b2f9035ee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cat Props/Toxic Plants using Guid(90f979ec5ef799942adc442b2f9035ee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e2a327b65cd97d0a85d42c01d7d907b') in 0.0038169 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.4 MB). Loaded Objects now: 7130.
+Memory consumption went from 147.0 MB to 141.7 MB.
+Total: 28.784300 ms (FindLiveObjects: 1.447700 ms CreateObjectMapping: 1.749500 ms MarkObjects: 20.001200 ms  DeleteObjects: 5.581900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.662878 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Meshes
+  artifactKey: Guid(02825344c2626f3458d6890a9345a05c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase Tall/Meshes using Guid(02825344c2626f3458d6890a9345a05c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4a0247034a4eb77e5698726d5b44573b') in 0.032492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior
+  artifactKey: Guid(496d8c9e31792f74d8b73d659a2e0021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior using Guid(496d8c9e31792f74d8b73d659a2e0021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f624dcabb901ebce39f93d70385e7fcd') in 0.0076619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.214993 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked
+  artifactKey: Guid(355b6a0755f247e4095b237a2cd67099) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked using Guid(355b6a0755f247e4095b237a2cd67099) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4f5bbd655a873df45b46e392c899708') in 0.0070139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar/Materials
+  artifactKey: Guid(0bc8a22b6fbc5d542b3defc509c0dffb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar/Materials using Guid(0bc8a22b6fbc5d542b3defc509c0dffb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '03a6a1bbb54b98d43b0f4e4a31487833') in 0.0062827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.257877 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Textures
+  artifactKey: Guid(938d0928d636c6842aedcb7c313d3e76) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Textures using Guid(938d0928d636c6842aedcb7c313d3e76) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b19d81d6ca78fe80b2aa0214f587c72') in 0.0082754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar
+  artifactKey: Guid(6dfcf9e70283bd24db10d31362bb4c7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar using Guid(6dfcf9e70283bd24db10d31362bb4c7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10e828a0c3c0a191268ff03033b8c8b0') in 0.0114968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.092594 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay vase Cracked/Textures
+  artifactKey: Guid(3ae75f62ad8656e43aa9421758670837) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay vase Cracked/Textures using Guid(3ae75f62ad8656e43aa9421758670837) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdf4c9ff1fd6fb744abe727b366400ca') in 0.0074857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked/Materials
+  artifactKey: Guid(ce4b0451ac321c04ba376523b00b4dbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked/Materials using Guid(ce4b0451ac321c04ba376523b00b4dbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e1fafbb90d79409f257c52b6822b627') in 0.0089288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.242720 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures
+  artifactKey: Guid(f6dc307e06e8ef24c8e1c93ae6b5c18d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures using Guid(f6dc307e06e8ef24c8e1c93ae6b5c18d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fac8498c75696332704e01260464fa59') in 0.0086988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample
+  artifactKey: Guid(bfea097eda748e445af72b19baa5540e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and Glassware - Sample using Guid(bfea097eda748e445af72b19baa5540e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1ee8cd363b99c3a1989bc191c20ae4b3') in 0.0123035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.204186 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar_BrownPurple/Meshes
+  artifactKey: Guid(814cb5ec2262a4e4e8343e8c5c2599d8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar_BrownPurple/Meshes using Guid(814cb5ec2262a4e4e8343e8c5c2599d8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a0ad1c570775d958851b0e9b4406b866') in 0.006359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior
+  artifactKey: Guid(f8a6130561cee7c44aaf2ad83ac57dd4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior using Guid(f8a6130561cee7c44aaf2ad83ac57dd4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '26a9ee48c3ad8cea64ff660ea7cffd3f') in 0.005565 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.254365 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Meshes
+  artifactKey: Guid(281e00371fcd4de47a791e9d892a7370) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BlueRed Cracked/Meshes using Guid(281e00371fcd4de47a791e9d892a7370) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1fda321dcbccfa72be4016b144d84ccc') in 0.0065212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Cauldron
+  artifactKey: Guid(bad8e4b5e29861449acf3316255005ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Cauldron using Guid(bad8e4b5e29861449acf3316255005ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6474dadf196e76b032ff55736504d391') in 0.0054882 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.832 seconds
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.832 seconds
+Domain Reload Profiling: 1663ms
+	BeginReloadAssembly (247ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (542ms)
-		LoadAssemblies (390ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (507ms)
+		LoadAssemblies (420ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (177ms)
-				TypeCache.ScanAssembly (163ms)
-			BuildScriptInfoCaches (49ms)
+		AnalyzeDomain (185ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (156ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (733ms)
+	FinalizeReload (832ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (497ms)
+		SetupLoadedEditorAssemblies (656ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (107ms)
-			ProcessInitializeOnLoadAttributes (314ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (186ms)
+			ProcessInitializeOnLoadAttributes (359ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
 			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (5.7 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.2 MB to 154.6 MB.
+Total: 16.169800 ms (FindLiveObjects: 0.985900 ms CreateObjectMapping: 1.366100 ms MarkObjects: 6.842800 ms  DeleteObjects: 6.972600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
 Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6399 unused Assets / (5.0 MB). Loaded Objects now: 7127.
-Memory consumption went from 146.1 MB to 141.1 MB.
-Total: 14.723600 ms (FindLiveObjects: 1.549800 ms CreateObjectMapping: 1.146100 ms MarkObjects: 8.148300 ms  DeleteObjects: 3.878000 ms)
+Unloading 6392 unused Assets / (4.4 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 156.1 MB.
+Total: 16.100600 ms (FindLiveObjects: 1.100200 ms CreateObjectMapping: 1.362200 ms MarkObjects: 7.986400 ms  DeleteObjects: 5.650400 ms)
 
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 40.874047 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eff680d10bd9c58f900e36699ab0ee38') in 0.0252187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.0 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 156.4 MB.
+Total: 14.631700 ms (FindLiveObjects: 1.206700 ms CreateObjectMapping: 1.272200 ms MarkObjects: 8.210900 ms  DeleteObjects: 3.940300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4.801947 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29c70ca1f3ea945b7b1f6c8db8701cf2') in 0.0111346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.7 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.7 MB.
+Total: 18.298300 ms (FindLiveObjects: 1.570800 ms CreateObjectMapping: 4.496400 ms MarkObjects: 8.080700 ms  DeleteObjects: 4.148400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.684333 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6da004b00f447c8f512b4052d035e5e') in 0.0082492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.3 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.2 MB.
+Total: 15.662600 ms (FindLiveObjects: 0.920000 ms CreateObjectMapping: 0.900200 ms MarkObjects: 9.294200 ms  DeleteObjects: 4.546000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.386529 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca286ed9ae1943fcb982d3f2e1f4da0a') in 0.0058502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.0 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.4 MB.
+Total: 14.166800 ms (FindLiveObjects: 1.364900 ms CreateObjectMapping: 1.108000 ms MarkObjects: 7.035600 ms  DeleteObjects: 4.656600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.585968 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca3e4654f7b308cde7dd38133a7ad25b') in 0.0144594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.6 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.9 MB.
+Total: 14.789500 ms (FindLiveObjects: 1.202700 ms CreateObjectMapping: 1.209900 ms MarkObjects: 8.311600 ms  DeleteObjects: 4.063600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.147859 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6eef7e353b83f7b26e21d0f1521315a') in 0.0065185 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.0 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.5 MB.
+Total: 15.982400 ms (FindLiveObjects: 1.108200 ms CreateObjectMapping: 1.753200 ms MarkObjects: 8.268600 ms  DeleteObjects: 4.850600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.870013 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07c4792824ffcc3ef5a5b322e4953742') in 0.0066289 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.6 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.8 MB.
+Total: 13.960100 ms (FindLiveObjects: 0.991800 ms CreateObjectMapping: 1.100400 ms MarkObjects: 7.893500 ms  DeleteObjects: 3.971700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 18.399674 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70e949a3b296e04868905f78e9c1c3a7') in 0.0085164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.6 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.8 MB.
+Total: 20.721700 ms (FindLiveObjects: 1.092000 ms CreateObjectMapping: 2.613400 ms MarkObjects: 12.432600 ms  DeleteObjects: 4.581800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.089924 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '355c847c66d7a07e1952d2ebee8f3b98') in 0.0073933 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.4 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 156.0 MB.
+Total: 11.937400 ms (FindLiveObjects: 1.064500 ms CreateObjectMapping: 0.825700 ms MarkObjects: 7.152100 ms  DeleteObjects: 2.892900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.952328 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2f95907da6e52df5d1449b0dbd8ee50') in 0.0051725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.3 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.1 MB.
+Total: 16.015200 ms (FindLiveObjects: 2.000500 ms CreateObjectMapping: 1.963700 ms MarkObjects: 7.638600 ms  DeleteObjects: 4.410500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 17.197480 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs
+  artifactKey: Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/RoomGUIManager.cs using Guid(820e981f23d6ed04984fc0056c5ff287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '871ab37ce62dac62d86fb70f080da70f') in 0.0110067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.5 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 156.0 MB.
+Total: 15.080600 ms (FindLiveObjects: 1.191800 ms CreateObjectMapping: 0.833100 ms MarkObjects: 9.602800 ms  DeleteObjects: 3.451200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.7 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.7 MB.
+Total: 12.323700 ms (FindLiveObjects: 1.139900 ms CreateObjectMapping: 0.894300 ms MarkObjects: 7.027700 ms  DeleteObjects: 3.259800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.1 MB). Loaded Objects now: 7146.
+Memory consumption went from 160.4 MB to 155.3 MB.
+Total: 16.105100 ms (FindLiveObjects: 1.263700 ms CreateObjectMapping: 1.063500 ms MarkObjects: 8.935500 ms  DeleteObjects: 4.839900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.535 seconds
+Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.348 seconds
+Domain Reload Profiling: 2871ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (987ms)
+		LoadAssemblies (820ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (360ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (307ms)
+			ResolveRequiredComponents (27ms)
+	FinalizeReload (1348ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1052ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.8 MB). Loaded Objects now: 7149.
+Memory consumption went from 160.3 MB to 155.5 MB.
+Total: 14.749400 ms (FindLiveObjects: 1.061300 ms CreateObjectMapping: 1.012200 ms MarkObjects: 8.174500 ms  DeleteObjects: 4.499100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.632 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.584 seconds
+Domain Reload Profiling: 1214ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (152ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (129ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (584ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (449ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (270ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.8 MB). Loaded Objects now: 7152.
+Memory consumption went from 160.4 MB to 155.6 MB.
+Total: 12.566800 ms (FindLiveObjects: 1.473100 ms CreateObjectMapping: 0.971300 ms MarkObjects: 6.755400 ms  DeleteObjects: 3.365500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.1 MB). Loaded Objects now: 7152.
+Memory consumption went from 160.5 MB to 156.4 MB.
+Total: 13.328900 ms (FindLiveObjects: 1.191900 ms CreateObjectMapping: 1.706000 ms MarkObjects: 6.923600 ms  DeleteObjects: 3.505500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.513 seconds
+Refreshing native plugins compatible for Editor in 5.60 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.396 seconds
+Domain Reload Profiling: 2887ms
+	BeginReloadAssembly (349ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (979ms)
+		LoadAssemblies (767ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (380ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (332ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1397ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (266ms)
+			ProcessInitializeOnLoadAttributes (620ms)
+			ProcessInitializeOnLoadMethodAttributes (132ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (28ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.5 MB). Loaded Objects now: 7155.
+Memory consumption went from 160.4 MB to 155.9 MB.
+Total: 12.316700 ms (FindLiveObjects: 1.130300 ms CreateObjectMapping: 0.840300 ms MarkObjects: 7.085200 ms  DeleteObjects: 3.259300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.8 MB). Loaded Objects now: 7155.
+Memory consumption went from 160.6 MB to 155.8 MB.
+Total: 12.139500 ms (FindLiveObjects: 1.171900 ms CreateObjectMapping: 0.872800 ms MarkObjects: 6.543700 ms  DeleteObjects: 3.549200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.492 seconds
+Refreshing native plugins compatible for Editor in 2.74 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.454 seconds
+Domain Reload Profiling: 2933ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (948ms)
+		LoadAssemblies (757ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (381ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (335ms)
+			ResolveRequiredComponents (23ms)
+	FinalizeReload (1455ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1134ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (675ms)
+			ProcessInitializeOnLoadMethodAttributes (137ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.5 MB). Loaded Objects now: 7158.
+Memory consumption went from 160.5 MB to 156.0 MB.
+Total: 12.039900 ms (FindLiveObjects: 1.110600 ms CreateObjectMapping: 0.766000 ms MarkObjects: 6.891600 ms  DeleteObjects: 3.269800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.13 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.7 MB). Loaded Objects now: 7158.
+Memory consumption went from 160.6 MB to 156.0 MB.
+Total: 15.063900 ms (FindLiveObjects: 1.150100 ms CreateObjectMapping: 1.061800 ms MarkObjects: 9.112100 ms  DeleteObjects: 3.737900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.0 MB). Loaded Objects now: 7158.
+Memory consumption went from 160.6 MB to 155.6 MB.
+Total: 15.207000 ms (FindLiveObjects: 1.175000 ms CreateObjectMapping: 1.452300 ms MarkObjects: 8.333700 ms  DeleteObjects: 4.243700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.102 seconds
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.125 seconds
+Domain Reload Profiling: 2219ms
+	BeginReloadAssembly (289ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (582ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (248ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (216ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1126ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (899ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (12ms)
+			BeforeProcessingInitializeOnLoad (200ms)
+			ProcessInitializeOnLoadAttributes (538ms)
+			ProcessInitializeOnLoadMethodAttributes (119ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.5 MB). Loaded Objects now: 7161.
+Memory consumption went from 160.5 MB to 156.0 MB.
+Total: 12.897900 ms (FindLiveObjects: 1.093700 ms CreateObjectMapping: 0.764700 ms MarkObjects: 7.621200 ms  DeleteObjects: 3.416400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.4 MB). Loaded Objects now: 7161.
+Memory consumption went from 160.7 MB to 156.2 MB.
+Total: 12.531900 ms (FindLiveObjects: 0.983000 ms CreateObjectMapping: 0.678400 ms MarkObjects: 7.512200 ms  DeleteObjects: 3.356400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.5 MB). Loaded Objects now: 7161.
+Memory consumption went from 160.7 MB to 156.1 MB.
+Total: 11.568100 ms (FindLiveObjects: 0.969400 ms CreateObjectMapping: 0.739100 ms MarkObjects: 6.434800 ms  DeleteObjects: 3.423000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  1.571 seconds
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.436 seconds
+Domain Reload Profiling: 2998ms
+	BeginReloadAssembly (392ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (73ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1010ms)
+		LoadAssemblies (808ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (407ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (346ms)
+			ResolveRequiredComponents (34ms)
+	FinalizeReload (1437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (993ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (11ms)
+			BeforeProcessingInitializeOnLoad (240ms)
+			ProcessInitializeOnLoadAttributes (580ms)
+			ProcessInitializeOnLoadMethodAttributes (123ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.5 MB). Loaded Objects now: 7164.
+Memory consumption went from 160.5 MB to 156.0 MB.
+Total: 11.680800 ms (FindLiveObjects: 1.127700 ms CreateObjectMapping: 0.865900 ms MarkObjects: 6.612100 ms  DeleteObjects: 3.072700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.8 MB). Loaded Objects now: 7164.
+Memory consumption went from 160.6 MB to 155.9 MB.
+Total: 11.956900 ms (FindLiveObjects: 1.054900 ms CreateObjectMapping: 0.850600 ms MarkObjects: 6.575500 ms  DeleteObjects: 3.473600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.488 seconds
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.603 seconds
+Domain Reload Profiling: 2074ms
+	BeginReloadAssembly (363ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (951ms)
+		LoadAssemblies (783ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (306ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (603ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.77 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.9 MB). Loaded Objects now: 7167.
+Memory consumption went from 160.5 MB to 155.6 MB.
+Total: 12.018600 ms (FindLiveObjects: 0.821300 ms CreateObjectMapping: 0.991700 ms MarkObjects: 6.013700 ms  DeleteObjects: 4.189600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.9 MB). Loaded Objects now: 7167.
+Memory consumption went from 160.7 MB to 155.8 MB.
+Total: 14.502300 ms (FindLiveObjects: 1.118400 ms CreateObjectMapping: 1.092200 ms MarkObjects: 7.933200 ms  DeleteObjects: 4.356300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.6 MB). Loaded Objects now: 7167.
+Memory consumption went from 160.7 MB to 156.1 MB.
+Total: 12.466000 ms (FindLiveObjects: 1.153400 ms CreateObjectMapping: 1.357300 ms MarkObjects: 6.707900 ms  DeleteObjects: 3.245600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.1 MB). Loaded Objects now: 7167.
+Memory consumption went from 160.7 MB to 155.6 MB.
+Total: 13.010900 ms (FindLiveObjects: 1.119900 ms CreateObjectMapping: 0.815300 ms MarkObjects: 7.556000 ms  DeleteObjects: 3.517800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.8 MB). Loaded Objects now: 7167.
+Memory consumption went from 160.7 MB to 155.9 MB.
+Total: 12.783200 ms (FindLiveObjects: 1.055100 ms CreateObjectMapping: 1.203300 ms MarkObjects: 6.637900 ms  DeleteObjects: 3.884800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.492 seconds
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.497 seconds
+Domain Reload Profiling: 2976ms
+	BeginReloadAssembly (359ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (981ms)
+		LoadAssemblies (778ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (369ms)
+			TypeCache.Refresh (19ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (326ms)
+			ResolveRequiredComponents (17ms)
+	FinalizeReload (1497ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1171ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (374ms)
+			ProcessInitializeOnLoadAttributes (622ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.8 MB). Loaded Objects now: 7170.
+Memory consumption went from 160.5 MB to 155.8 MB.
+Total: 12.964400 ms (FindLiveObjects: 1.096900 ms CreateObjectMapping: 1.004900 ms MarkObjects: 7.039500 ms  DeleteObjects: 3.821300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (5.1 MB). Loaded Objects now: 7170.
+Memory consumption went from 160.7 MB to 155.6 MB.
+Total: 13.396600 ms (FindLiveObjects: 1.184000 ms CreateObjectMapping: 0.989400 ms MarkObjects: 7.308300 ms  DeleteObjects: 3.912000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.491 seconds
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.441 seconds
+Domain Reload Profiling: 2920ms
+	BeginReloadAssembly (367ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (953ms)
+		LoadAssemblies (769ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (370ms)
+			TypeCache.Refresh (16ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (325ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (1442ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1077ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (261ms)
+			ProcessInitializeOnLoadAttributes (651ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (43ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.6 MB). Loaded Objects now: 7173.
+Memory consumption went from 160.6 MB to 156.0 MB.
+Total: 12.864700 ms (FindLiveObjects: 0.999600 ms CreateObjectMapping: 0.793100 ms MarkObjects: 7.000900 ms  DeleteObjects: 4.069300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.8 MB). Loaded Objects now: 7173.
+Memory consumption went from 160.8 MB to 155.9 MB.
+Total: 15.021100 ms (FindLiveObjects: 1.087900 ms CreateObjectMapping: 1.566400 ms MarkObjects: 8.409100 ms  DeleteObjects: 3.955800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.420 seconds
+Refreshing native plugins compatible for Editor in 3.33 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 2804ms
+	BeginReloadAssembly (323ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (71ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (942ms)
+		LoadAssemblies (719ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (17ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (345ms)
+			ResolveRequiredComponents (19ms)
+	FinalizeReload (1394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1058ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (17ms)
+			BeforeProcessingInitializeOnLoad (267ms)
+			ProcessInitializeOnLoadAttributes (582ms)
+			ProcessInitializeOnLoadMethodAttributes (133ms)
+			AfterProcessingInitializeOnLoad (33ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (5.5 MB). Loaded Objects now: 7176.
+Memory consumption went from 160.6 MB to 155.1 MB.
+Total: 18.906100 ms (FindLiveObjects: 1.222300 ms CreateObjectMapping: 3.378500 ms MarkObjects: 7.135200 ms  DeleteObjects: 7.167000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6392 unused Assets / (4.9 MB). Loaded Objects now: 7176.
+Memory consumption went from 160.8 MB to 155.9 MB.
+Total: 11.602000 ms (FindLiveObjects: 0.966500 ms CreateObjectMapping: 0.948200 ms MarkObjects: 6.277900 ms  DeleteObjects: 3.407300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.596 seconds
+Domain Reload Profiling: 1221ms
+	BeginReloadAssembly (181ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (34ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (379ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (156ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (596ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (452ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (273ms)
+			ProcessInitializeOnLoadMethodAttributes (53ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (4.9 MB). Loaded Objects now: 7179.
+Memory consumption went from 160.7 MB to 155.8 MB.
+Total: 11.826500 ms (FindLiveObjects: 0.849100 ms CreateObjectMapping: 0.978200 ms MarkObjects: 5.840800 ms  DeleteObjects: 4.157300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 9071141991980-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.627 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.617 seconds
+Domain Reload Profiling: 1243ms
+	BeginReloadAssembly (169ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (392ms)
+		LoadAssemblies (311ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (618ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (283ms)
+			ProcessInitializeOnLoadMethodAttributes (68ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6399 unused Assets / (5.5 MB). Loaded Objects now: 7182.
+Memory consumption went from 160.7 MB to 155.3 MB.
+Total: 16.950700 ms (FindLiveObjects: 0.815100 ms CreateObjectMapping: 1.028100 ms MarkObjects: 8.704500 ms  DeleteObjects: 6.400900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6431 unused Assets / (5.2 MB). Loaded Objects now: 7221.
+Memory consumption went from 161.0 MB to 155.8 MB.
+Total: 16.609600 ms (FindLiveObjects: 1.120700 ms CreateObjectMapping: 1.088100 ms MarkObjects: 8.007500 ms  DeleteObjects: 6.391400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
@@ -248,7 +1816,9 @@ Begin MonoManager ReloadAssembly
   Type: Assigned
   Expiration: Unlimited
 - Loaded All Assemblies, in  0.649 seconds
-Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Assertion failed on expression: 'pred(*previous, *i)'
+Assertion failed on expression: 'pred(*previous, *i)'
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -258,45 +1828,615 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.637 seconds
-Domain Reload Profiling: 1284ms
-	BeginReloadAssembly (189ms)
+- Finished resetting the current domain, in  0.607 seconds
+Domain Reload Profiling: 1255ms
+	BeginReloadAssembly (179ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (319ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (405ms)
+		LoadAssemblies (325ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (151ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (130ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (637ms)
+		AnalyzeDomain (157ms)
+			TypeCache.Refresh (12ms)
+				TypeCache.ScanAssembly (2ms)
+			BuildScriptInfoCaches (133ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (607ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (477ms)
+		SetupLoadedEditorAssemblies (471ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (106ms)
-			ProcessInitializeOnLoadAttributes (296ms)
-			ProcessInitializeOnLoadMethodAttributes (53ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (100ms)
+			ProcessInitializeOnLoadAttributes (291ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (4.9 MB). Loaded Objects now: 7143.
-Memory consumption went from 157.5 MB to 152.5 MB.
-Total: 13.494400 ms (FindLiveObjects: 0.883600 ms CreateObjectMapping: 1.317600 ms MarkObjects: 7.661800 ms  DeleteObjects: 3.629600 ms)
+Unloading 6438 unused Assets / (4.8 MB). Loaded Objects now: 7224.
+Memory consumption went from 161.0 MB to 156.2 MB.
+Total: 11.039000 ms (FindLiveObjects: 0.777400 ms CreateObjectMapping: 0.879000 ms MarkObjects: 6.062000 ms  DeleteObjects: 3.318900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 965.586506 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked/Meshes
+  artifactKey: Guid(9c21e2d006214fc4f9d23f0ee464e8b0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Vase Cubic Cracked/Meshes using Guid(9c21e2d006214fc4f9d23f0ee464e8b0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f54ba3e6d302ea7bc60662686aaa500') in 0.6914843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TextMesh Pro/Fonts
+  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74661d8703547e6ea331e6f88a9f0a1e') in 0.0057579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay vase Cracked/Materials
+  artifactKey: Guid(2076286b487aad0439ef5dea78c6fdd3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay vase Cracked/Materials using Guid(2076286b487aad0439ef5dea78c6fdd3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '296be4ed83266ed192d09d1c2050af32') in 0.0036418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Prefabs
+  artifactKey: Guid(a687e082e8cddc54ea0aefde41db9820) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible/Prefabs using Guid(a687e082e8cddc54ea0aefde41db9820) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44a6ebd765dc87ee334738161af4bbaa') in 0.0045955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Models/Source
+  artifactKey: Guid(78fa0e87958ff574ca0ee58b09a62463) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible/Models/Source using Guid(78fa0e87958ff574ca0ee58b09a62463) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a8f6fef780a29b4a1d8ba24548026f80') in 0.0031085 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase/Meshes
+  artifactKey: Guid(f3708ea2736c19847a5a5b8d5ffe7de8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase/Meshes using Guid(f3708ea2736c19847a5a5b8d5ffe7de8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e8e1c9e82682cd0e8e49a545f7e531f') in 0.0038066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase/Materials
+  artifactKey: Guid(64ec4ad277f57204b8e1b915dd845fcd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase/Materials using Guid(64ec4ad277f57204b8e1b915dd845fcd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb73956a7482e48c2151578cfc2c86f5') in 0.0037779 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay vase Cracked
+  artifactKey: Guid(1bb655eed07f91a4ca5c1ce6e83675a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay vase Cracked using Guid(1bb655eed07f91a4ca5c1ce6e83675a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba45dc580ae431741019900bcfb77e03') in 0.0039312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows
+  artifactKey: Guid(34ee2b8617956354f8a16763d8109b3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows using Guid(34ee2b8617956354f8a16763d8109b3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4db9aebd17e80205a983294cd613cd31') in 0.0042624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset
+  artifactKey: Guid(bb59077d2267a2540b1338b65c17c975) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset using Guid(bb59077d2267a2540b1338b65c17c975) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eecd3787e9d8bae7f676ce4a8bb5c31e') in 0.0032608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Flower Pot/Textures
+  artifactKey: Guid(017cbbd65798db949bbecdd49afce4fc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Flower Pot/Textures using Guid(017cbbd65798db949bbecdd49afce4fc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f02456075cece17d57313e9cfdb2aa2') in 0.0041587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors
+  artifactKey: Guid(a62e9a2c4503174458b0184707ddb33a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors using Guid(a62e9a2c4503174458b0184707ddb33a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'eda4ba78df2ab2a7c737a6d37b708d56') in 0.0050691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Flower Pot/Meshes
+  artifactKey: Guid(830cefd61f3e4f34a8f3bead6587d57d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Flower Pot/Meshes using Guid(830cefd61f3e4f34a8f3bead6587d57d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6df47f683d1e566afd69b55bfdbb8742') in 0.0034265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Materials
+  artifactKey: Guid(b7c83845098744a45bed849b74c12c74) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Materials using Guid(b7c83845098744a45bed849b74c12c74) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '96acd20f8b2e27299565b35c5b9cacaa') in 0.0041323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy
+  artifactKey: Guid(32058b23841609940b3a587bd4a92fa6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy using Guid(32058b23841609940b3a587bd4a92fa6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8c573778bcb3a8f54c8f231f8745a042') in 0.0029173 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03
+  artifactKey: Guid(5fc645babc362d2469869b278c5797e9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls Frames & Doors/Apt_03 using Guid(5fc645babc362d2469869b278c5797e9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cd56211b4e05408618a5c1f96def8be7') in 0.0050037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation
+  artifactKey: Guid(cff0dec274a8a234aa6a99b3b0431cfc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation using Guid(cff0dec274a8a234aa6a99b3b0431cfc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f05373490be8a1a56a891d0c907daae5') in 0.0036086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs
+  artifactKey: Guid(3311df2ab1633d845bde5691f2f600f1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs using Guid(3311df2ab1633d845bde5691f2f600f1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd6778655c732a030d52617c42ee9a446') in 0.0037156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Materials
+  artifactKey: Guid(9a00fc46e176c0d4a98f61f47d9142d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase_WhiteBrown/Materials using Guid(9a00fc46e176c0d4a98f61f47d9142d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d5ee59ba4ce8e76d1d916ec3d5cbcbc') in 0.004241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits
+  artifactKey: Guid(e1df33c3547317b4781f62068dfd6146) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits using Guid(e1df33c3547317b4781f62068dfd6146) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe8c2ed062afec68fc1a900464064af4') in 0.0049935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials
+  artifactKey: Guid(120d25fd7aaa0004dbfd6cc11d6405a5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials using Guid(120d25fd7aaa0004dbfd6cc11d6405a5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '305935dbb973e5d178050de701a7a967') in 0.0036336 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Models/Textures
+  artifactKey: Guid(32fd67008e21f9e48844fdce0bac016f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible/Models/Textures using Guid(32fd67008e21f9e48844fdce0bac016f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '294ad2397d41153e246d770ba235a43b') in 0.0035757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Cat Props/Food
+  artifactKey: Guid(b1882e525b6fb4b4fb0b7b69a0a3f016) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cat Props/Food using Guid(b1882e525b6fb4b4fb0b7b69a0a3f016) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c7d854a0d43b5e5f81a46da03d529746') in 0.0047637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Vase Cracked/Textures
+  artifactKey: Guid(3d0170b849edd0f499d841fb41afb021) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Vase Cracked/Textures using Guid(3d0170b849edd0f499d841fb41afb021) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aac69a0b27c7a0bc06ef1cde0c040367') in 0.0038342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials
+  artifactKey: Guid(b80d857f0927f6b48b703072a6c76a31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials using Guid(b80d857f0927f6b48b703072a6c76a31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '756accd4f96ead057b7e22b257cf6f4b') in 0.0038628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar/Meshes
+  artifactKey: Guid(a4681d84be161284e9c04802f20206fe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar/Meshes using Guid(a4681d84be161284e9c04802f20206fe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50383f0c4f08ad07035531520a91104a') in 0.0035833 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen
+  artifactKey: Guid(4052a93064f5b2c4ea9b0d7577e6ac73) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen using Guid(4052a93064f5b2c4ea9b0d7577e6ac73) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe879cda98908cb513f0f3db9706272b') in 0.0038582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet
+  artifactKey: Guid(ad87785502f96074d8c4ba05b3bec98e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet using Guid(ad87785502f96074d8c4ba05b3bec98e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '28b608c9866260b360e9cc050ed61e22') in 0.0041112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Kettle
+  artifactKey: Guid(843a91fc423f0c445a2d9d3f1d825d17) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Kettle using Guid(843a91fc423f0c445a2d9d3f1d825d17) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '74abcd4f5a5d93b0035c1c12d05e1e1c') in 0.00381 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Vase
+  artifactKey: Guid(8cb2d4e3b4c002c4683261c466118ef8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Vase using Guid(8cb2d4e3b4c002c4683261c466118ef8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bf914493a7bbfa576587287f34106ebb') in 0.0036517 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets
+  artifactKey: Guid(748556adda317c6488310b711b275dd8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets using Guid(748556adda317c6488310b711b275dd8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2e16ab29e882a487d5f520cb05c8f775') in 0.0053743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Materials
+  artifactKey: Guid(3eaa1cfa19c268d46876f7a1e8a6ae3a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Materials using Guid(3eaa1cfa19c268d46876f7a1e8a6ae3a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dd255b5be71a920f3fd303b55700ae6') in 0.0043112 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Vase_WhiteBrown Cracked/Textures
+  artifactKey: Guid(0d59ac34098da934f85386e05efafc2b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Vase_WhiteBrown Cracked/Textures using Guid(0d59ac34098da934f85386e05efafc2b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d5c8a60d633424d873d06ea1fbedfde') in 0.0037692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances
+  artifactKey: Guid(9d1b8e8288d67e24fa563a8d19b1684f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances using Guid(9d1b8e8288d67e24fa563a8d19b1684f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b5f56113395b341094898c1ed8d7d58a') in 0.0037575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Models
+  artifactKey: Guid(0e1a7a4954a0e0d47b38ada5fb16bf04) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Models using Guid(0e1a7a4954a0e0d47b38ada5fb16bf04) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5aa5856193d7e673767800faa341dcf6') in 0.0040988 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Meshes
+  artifactKey: Guid(24afe402f5594b844ab8222e6faacad8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar_BrownPurple Cracked/Meshes using Guid(24afe402f5594b844ab8222e6faacad8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99d24f5d941fce4f4fd97ed67cfe3bbf') in 0.0068552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02
+  artifactKey: Guid(146c196b551cfcf45afcbe0d5f25a501) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_02 using Guid(146c196b551cfcf45afcbe0d5f25a501) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '20520815298999e1ce292475dc7f541f') in 0.0046778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Jar/Meshes
+  artifactKey: Guid(c7885791a6ea35b43bbd32feb5cc5ba5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Jar/Meshes using Guid(c7885791a6ea35b43bbd32feb5cc5ba5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3e67cb64974fbc425071f69a476c1af3') in 0.003903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Audio/Prefabs
+  artifactKey: Guid(c1a6b36ff6bf8354fac8e472bf590dd7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible/Audio/Prefabs using Guid(c1a6b36ff6bf8354fac8e472bf590dd7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '41be21bcbf74b812d34d50130bfb8f0a') in 0.0043353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(ff4616710b9dc244bbe7d8b8d3a22e53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes using Guid(ff4616710b9dc244bbe7d8b8d3a22e53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc5f164eddd8a6279e02af4f916f90e4') in 0.003266 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common
+  artifactKey: Guid(f258763b685e7924685dcc28219c17df) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common using Guid(f258763b685e7924685dcc28219c17df) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df159c293ceeb871ddb6a07faece1fdf') in 0.0045089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio
+  artifactKey: Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio using Guid(39f8a5732a15f774e8d434c1ce70a764) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aa6329f2289454d251d70a3f6f5e101e') in 0.0050391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy
+  artifactKey: Guid(a3b11110f41049f4f8d46bfc8ee7a0ce) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy using Guid(a3b11110f41049f4f8d46bfc8ee7a0ce) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'db136cdedda0daedfdbfa085a31bdeb7') in 0.0035434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible
+  artifactKey: Guid(af52482054089f04a9c1e170aadcda25) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible using Guid(af52482054089f04a9c1e170aadcda25) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '611fd527614d0157f0ac8ad51c23163e') in 0.0040764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94d0cceaf2260f9807197694b70504d8') in 0.0034358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs
+  artifactKey: Guid(c84cdf898723e1a4b9e4954eb5a76a33) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/PlayerMovement.cs using Guid(c84cdf898723e1a4b9e4954eb5a76a33) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24abd6de4d5bdab26fa1acffc0ff3bb4') in 0.0318831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit
+  artifactKey: Guid(eaea49c39338b4f498427bf2b99c3a8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit using Guid(eaea49c39338b4f498427bf2b99c3a8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '58150df49014fa448624c2e05f9099e2') in 0.0124212 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Fire
+  artifactKey: Guid(d2ab7c6d9e8393b4c9eeafe624043905) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Fire using Guid(d2ab7c6d9e8393b4c9eeafe624043905) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1573e709d9130188136bf1a18afe2fbe') in 0.0034975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Cat Props/Fragile Utensils
+  artifactKey: Guid(9b86a337308ff6241bc0ecf7f5a4e7ba) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Cat Props/Fragile Utensils using Guid(9b86a337308ff6241bc0ecf7f5a4e7ba) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '446c7667a96b2e0c6373211dfc734a6f') in 0.0053415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props
+  artifactKey: Guid(346a982c5dd76c943b339d2bdf78d7e2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props using Guid(346a982c5dd76c943b339d2bdf78d7e2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aff8417bd363c66a47649ffeac4b546d') in 0.0038131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar_BrownPurple
+  artifactKey: Guid(31d4f5510604b7c4bae30eaaa5b78f03) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar_BrownPurple using Guid(31d4f5510604b7c4bae30eaaa5b78f03) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '379583a42ba5e52ecc54afbcc9f40add') in 0.0050601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Meshes
+  artifactKey: Guid(9e32317b0d69a9242bfdfdce7d3a6bbb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked/Meshes using Guid(9e32317b0d69a9242bfdfdce7d3a6bbb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ad4d75379a16980a3cb05734a3da0844') in 0.0052257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene
+  artifactKey: Guid(1ccf763dc0d9fbf4cafdb919842ae4eb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene using Guid(1ccf763dc0d9fbf4cafdb919842ae4eb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '307647e191a96d4a4228ee0e13f87c77') in 0.005994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked
+  artifactKey: Guid(a69f1f88cd4edd74293d39f6f450ba7e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Jar Cracked using Guid(a69f1f88cd4edd74293d39f6f450ba7e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6c375c5934c7a868ca5911a2d2d1d8de') in 0.0042022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props
+  artifactKey: Guid(02e76bb95b2116e42b266711b1f8545c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props using Guid(02e76bb95b2116e42b266711b1f8545c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdbe3dd630dfc4dd48cf161833356265') in 0.0048027 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Yuetility-Studios/YueDestructible/Gizmos
+  artifactKey: Guid(3f53b6dfc9f6a1747a16638f83de942b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Yuetility-Studios/YueDestructible/Gizmos using Guid(3f53b6dfc9f6a1747a16638f83de942b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d90dd49d353809fd87310ebbb2d9817') in 0.0049015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc
+  artifactKey: Guid(a736afff634d1a440b7395f96e6bec4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc using Guid(a736afff634d1a440b7395f96e6bec4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1cd62e48d28136385b0fedf3876df0fa') in 0.0048945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Clay Vase Tall Cracked/Materials
+  artifactKey: Guid(ea45abe3b0e7ef341bf50c5467adf99d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Clay Vase Tall Cracked/Materials using Guid(ea45abe3b0e7ef341bf50c5467adf99d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3dccb6a54c10a4052eac15b81f96478f') in 0.0037365 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets
+  artifactKey: Guid(91b83f31308c06d439689f8138186839) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets using Guid(91b83f31308c06d439689f8138186839) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '21f113e3ec4d35983dfa79c3352fa192') in 0.0045313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art
+  artifactKey: Guid(4addefa9a98220647bbb0f022fc137d5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art using Guid(4addefa9a98220647bbb0f022fc137d5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '15f108f11f7dae06b89683d6ed8cc519') in 0.0052214 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Clay Kettle/Materials
+  artifactKey: Guid(eda1691c02765534481cc2c4d7695134) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Clay Kettle/Materials using Guid(eda1691c02765534481cc2c4d7695134) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e1115b53337a3d2ab4b4c1c09dd0721e') in 0.0032184 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen
+  artifactKey: Guid(64b32d819dc74784f921de88bc4d6117) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen using Guid(64b32d819dc74784f921de88bc4d6117) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fa89a8e9529e9744157c4c1881c41c92') in 0.0049893 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit
+  artifactKey: Guid(7650939902e4fdb4988d94990fbc7bee) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit using Guid(7650939902e4fdb4988d94990fbc7bee) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cb5a2aceecc1202c01c22300de0c620b') in 0.0041516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Breakable Containers/Items/Cracked/Jar Cracked/Textures
+  artifactKey: Guid(2292425881b3ab442b05a82f0d9fa26a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Cracked/Jar Cracked/Textures using Guid(2292425881b3ab442b05a82f0d9fa26a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0b01ef05ed5ef9c7fddece74398f8392') in 0.0043536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase/Materials
+  artifactKey: Guid(f18f350d6ed73a449a2c73f8bcb05788) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase/Materials using Guid(f18f350d6ed73a449a2c73f8bcb05788) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e26a1d11bc8629490b50aab5717c2646') in 0.0039401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom
+  artifactKey: Guid(9d4ab9777aa50c14fbfac8f939a3ebed) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom using Guid(9d4ab9777aa50c14fbfac8f939a3ebed) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3a8e6f2f5a53bca82389a62ce8d402bf') in 0.0042356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum
+  artifactKey: Guid(cd30d03d108b87346974024eb3f31363) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum using Guid(cd30d03d108b87346974024eb3f31363) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '69458fb460251002ccd4d7747a7c94b2') in 0.0041281 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Jar_BrownPurple/Materials
+  artifactKey: Guid(28e6b9eec18cc7d4f93a0ac990e0922e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Jar_BrownPurple/Materials using Guid(28e6b9eec18cc7d4f93a0ac990e0922e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '32dd1cf5c595150315aa4769b19e70cc') in 0.0052907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface
+  artifactKey: Guid(27c32aa947d0197449dcda56c82d0bc8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface using Guid(27c32aa947d0197449dcda56c82d0bc8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ee7fbcd6b2f594dd1f58127a42177aca') in 0.0032467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Breakable Containers/Items/Normal/Vase/Textures
+  artifactKey: Guid(ba292a4398a17784383092e02a1a8369) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Breakable Containers/Items/Normal/Vase/Textures using Guid(ba292a4398a17784383092e02a1a8369) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '44be406a74d2dee363319a1ff926ae34') in 0.0038005 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6431 unused Assets / (4.7 MB). Loaded Objects now: 7224.
+Memory consumption went from 161.4 MB to 156.8 MB.
+Total: 16.791900 ms (FindLiveObjects: 1.321100 ms CreateObjectMapping: 2.163700 ms MarkObjects: 9.240800 ms  DeleteObjects: 4.063900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
@@ -313,8 +2453,8 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.631 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.823 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -324,239 +2464,62 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.600 seconds
-Domain Reload Profiling: 1228ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1495ms
+	BeginReloadAssembly (246ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
+		CreateAndSetChildDomain (74ms)
 	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (317ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (147ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (127ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (600ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (473ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (294ms)
-			ProcessInitializeOnLoadMethodAttributes (47ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (4.9 MB). Loaded Objects now: 7146.
-Memory consumption went from 157.5 MB to 152.6 MB.
-Total: 11.364400 ms (FindLiveObjects: 0.755800 ms CreateObjectMapping: 0.938200 ms MarkObjects: 6.172000 ms  DeleteObjects: 3.496200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.640 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.680 seconds
-Domain Reload Profiling: 1319ms
-	BeginReloadAssembly (177ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (148ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (129ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (681ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (328ms)
-			ProcessInitializeOnLoadMethodAttributes (78ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 2.54 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.5 MB). Loaded Objects now: 7149.
-Memory consumption went from 157.5 MB to 152.0 MB.
-Total: 18.458700 ms (FindLiveObjects: 1.054800 ms CreateObjectMapping: 1.841700 ms MarkObjects: 8.875700 ms  DeleteObjects: 6.683900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.638 seconds
-Refreshing native plugins compatible for Editor in 0.85 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.677 seconds
-Domain Reload Profiling: 1313ms
-	BeginReloadAssembly (182ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (28ms)
-	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (32ms)
-	LoadAllAssembliesAndSetupDomain (385ms)
-		LoadAssemblies (315ms)
+	LoadAllAssembliesAndSetupDomain (502ms)
+		LoadAssemblies (420ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (129ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (678ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (536ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (110ms)
-			ProcessInitializeOnLoadAttributes (326ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.3 MB). Loaded Objects now: 7152.
-Memory consumption went from 157.6 MB to 152.3 MB.
-Total: 13.880900 ms (FindLiveObjects: 1.027700 ms CreateObjectMapping: 1.026600 ms MarkObjects: 6.992600 ms  DeleteObjects: 4.831500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.675 seconds
-Domain Reload Profiling: 1315ms
-	BeginReloadAssembly (175ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (395ms)
-		LoadAssemblies (323ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (149ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (130ms)
+		AnalyzeDomain (191ms)
+			TypeCache.Refresh (13ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (164ms)
 			ResolveRequiredComponents (9ms)
 	FinalizeReload (675ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (534ms)
+		SetupLoadedEditorAssemblies (511ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (109ms)
-			ProcessInitializeOnLoadAttributes (334ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (134ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (55ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.6 MB). Loaded Objects now: 7155.
-Memory consumption went from 157.6 MB to 152.0 MB.
-Total: 19.266000 ms (FindLiveObjects: 1.713600 ms CreateObjectMapping: 1.313600 ms MarkObjects: 9.261000 ms  DeleteObjects: 6.973800 ms)
+Unloading 6438 unused Assets / (4.8 MB). Loaded Objects now: 7227.
+Memory consumption went from 161.2 MB to 156.5 MB.
+Total: 11.093800 ms (FindLiveObjects: 0.868300 ms CreateObjectMapping: 0.940400 ms MarkObjects: 6.056000 ms  DeleteObjects: 3.227400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6432 unused Assets / (3.8 MB). Loaded Objects now: 7228.
+Memory consumption went from 161.4 MB to 157.6 MB.
+Total: 14.305600 ms (FindLiveObjects: 1.411000 ms CreateObjectMapping: 1.419500 ms MarkObjects: 8.065200 ms  DeleteObjects: 3.407800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.674 seconds
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.769 seconds
+Refreshing native plugins compatible for Editor in 1.12 ms, found 3 plugins.
 Native extension for Android target not found
 Native extension for WindowsStandalone target not found
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -566,363 +2529,58 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.687 seconds
-Domain Reload Profiling: 1359ms
-	BeginReloadAssembly (201ms)
+- Finished resetting the current domain, in  0.782 seconds
+Domain Reload Profiling: 1550ms
+	BeginReloadAssembly (202ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (32ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (35ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (339ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (493ms)
+		LoadAssemblies (411ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (153ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (133ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (687ms)
+		AnalyzeDomain (175ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (148ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (782ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (549ms)
+		SetupLoadedEditorAssemblies (616ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (13ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (125ms)
-			ProcessInitializeOnLoadAttributes (330ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
+			InitializePlatformSupportModulesInManaged (15ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (165ms)
+			ProcessInitializeOnLoadAttributes (352ms)
+			ProcessInitializeOnLoadMethodAttributes (70ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 1.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.7 MB). Loaded Objects now: 7158.
-Memory consumption went from 157.6 MB to 152.0 MB.
-Total: 16.462600 ms (FindLiveObjects: 1.108400 ms CreateObjectMapping: 1.152200 ms MarkObjects: 7.519100 ms  DeleteObjects: 6.680600 ms)
+Unloading 6439 unused Assets / (4.9 MB). Loaded Objects now: 7231.
+Memory consumption went from 161.3 MB to 156.3 MB.
+Total: 13.873000 ms (FindLiveObjects: 1.590300 ms CreateObjectMapping: 1.265300 ms MarkObjects: 6.716900 ms  DeleteObjects: 4.299000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.651 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.637 seconds
-Domain Reload Profiling: 1288ms
-	BeginReloadAssembly (180ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (403ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (135ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (638ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (502ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (111ms)
-			ProcessInitializeOnLoadAttributes (295ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.3 MB). Loaded Objects now: 7161.
-Memory consumption went from 157.7 MB to 152.4 MB.
-Total: 13.724800 ms (FindLiveObjects: 1.042700 ms CreateObjectMapping: 0.999300 ms MarkObjects: 6.326700 ms  DeleteObjects: 5.353300 ms)
+Unloading 6432 unused Assets / (4.7 MB). Loaded Objects now: 7231.
+Memory consumption went from 161.4 MB to 156.8 MB.
+Total: 15.905500 ms (FindLiveObjects: 1.449700 ms CreateObjectMapping: 1.965200 ms MarkObjects: 8.961200 ms  DeleteObjects: 3.527600 ms)
 
 Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.661 seconds
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.644 seconds
-Domain Reload Profiling: 1303ms
-	BeginReloadAssembly (181ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (37ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (334ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (155ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (134ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (645ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (508ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (306ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (16ms)
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.8 MB). Loaded Objects now: 7164.
-Memory consumption went from 157.7 MB to 152.0 MB.
-Total: 19.553000 ms (FindLiveObjects: 1.151500 ms CreateObjectMapping: 2.268000 ms MarkObjects: 6.971400 ms  DeleteObjects: 9.159600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.654 seconds
-Refreshing native plugins compatible for Editor in 0.90 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.668 seconds
-Domain Reload Profiling: 1321ms
-	BeginReloadAssembly (180ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (39ms)
-	RebuildCommonClasses (30ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (408ms)
-		LoadAssemblies (336ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (131ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (669ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (530ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (113ms)
-			ProcessInitializeOnLoadAttributes (332ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 2.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.7 MB). Loaded Objects now: 7167.
-Memory consumption went from 157.8 MB to 152.1 MB.
-Total: 19.123900 ms (FindLiveObjects: 1.721700 ms CreateObjectMapping: 1.289800 ms MarkObjects: 7.463800 ms  DeleteObjects: 8.646400 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-[Licensing::Client] Successfully resolved entitlement details
-[Licensing::Module] License group:
-  Id: F4-YPMS-6VTS-JXCZ-TMR6-XXXX
-  Product: Unity Personal
-  Type: ULF
-  Expiration: Unlimited
-[Licensing::Module] License group:
-  Id: 9071141991980-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  0.643 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.589 seconds
-Domain Reload Profiling: 1231ms
-	BeginReloadAssembly (189ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (40ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (390ms)
-		LoadAssemblies (320ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (146ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (126ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (589ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (451ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (104ms)
-			ProcessInitializeOnLoadAttributes (264ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 2.96 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.0 MB). Loaded Objects now: 7170.
-Memory consumption went from 157.8 MB to 152.8 MB.
-Total: 16.318500 ms (FindLiveObjects: 0.848000 ms CreateObjectMapping: 1.028200 ms MarkObjects: 7.998700 ms  DeleteObjects: 6.441900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.642 seconds
-Refreshing native plugins compatible for Editor in 0.84 ms, found 3 plugins.
-Native extension for Android target not found
-Native extension for WindowsStandalone target not found
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] Unable to send message (not connected to server process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1332ms
-	BeginReloadAssembly (174ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (320ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (159ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (137ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (691ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (10ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (119ms)
-			ProcessInitializeOnLoadAttributes (321ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (17ms)
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6398 unused Assets / (5.4 MB). Loaded Objects now: 7173.
-Memory consumption went from 157.9 MB to 152.6 MB.
-Total: 23.170700 ms (FindLiveObjects: 1.561200 ms CreateObjectMapping: 3.396400 ms MarkObjects: 10.111000 ms  DeleteObjects: 8.098200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

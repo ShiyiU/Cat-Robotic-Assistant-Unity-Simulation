@@ -70,6 +70,10 @@ public class ControlManager : MonoBehaviour
         cameras[activeCamID].enabled = true; 
     }
 
+    public Camera GetLivingRoomCamera()
+    {
+        return cameras[1];
+    }
 
     // Update is called once per frame
     void Update()

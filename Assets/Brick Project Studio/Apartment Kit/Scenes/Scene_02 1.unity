@@ -8088,6 +8088,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &264551547
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9302,6 +9314,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &319861090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9943,6 +9967,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &338560149
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10387,6 +10423,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 11
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12472,6 +12520,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 12
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -14784,6 +14844,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &528160317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14983,6 +15055,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -16233,6 +16317,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -21108,6 +21204,7 @@ GameObject:
   - component: {fileID: 761764156}
   - component: {fileID: 761764155}
   - component: {fileID: 761764157}
+  - component: {fileID: 761764158}
   m_Layer: 0
   m_Name: RoomManager
   m_TagString: Untagged
@@ -21133,6 +21230,7 @@ MonoBehaviour:
   dishware: {fileID: 624588823}
   toaster: {fileID: 1768536988}
   electricalHazards: {fileID: 738825271}
+  smallObjectMarker: {fileID: 8600765881069025328, guid: 76c0bff643b666c43b592db9f98bad81, type: 3}
   smallObjSpawnBoundsObj: {fileID: 344668770}
   smallObjects:
   - {fileID: 3142072707701911342, guid: f4bed41b6eeb4754a86a46947083bf67, type: 3}
@@ -21197,6 +21295,33 @@ MonoBehaviour:
   - {fileID: 984776687}
   - {fileID: 1001178378}
   currentCamState: 0
+--- !u!114 &761764158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 761764154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 820e981f23d6ed04984fc0056c5ff287, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttons:
+  - {fileID: 528160317}
+  - {fileID: 338560149}
+  - {fileID: 1720064264}
+  - {fileID: 562799218}
+  - {fileID: 319861090}
+  - {fileID: 264551547}
+  - {fileID: 1239460151}
+  - {fileID: 1282599006}
+  - {fileID: 533161309}
+  - {fileID: 1136506520}
+  - {fileID: 1048211345}
+  - {fileID: 347832557}
+  - {fileID: 424328491}
+  - {fileID: 1989304156}
 --- !u!1 &764875659
 GameObject:
   m_ObjectHideFlags: 0
@@ -26750,7 +26875,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -27597,7 +27722,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 55
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -28654,6 +28779,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 10
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -30814,6 +30951,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -33045,6 +33194,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1239460151
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -34556,6 +34717,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1282599006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35225,6 +35398,10 @@ PrefabInstance:
     - target: {fileID: 1927095934725912879, guid: a9b081014bad86f4a80b60284279d21b, type: 3}
       propertyPath: controller
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1927095934725912879, guid: a9b081014bad86f4a80b60284279d21b, type: 3}
+      propertyPath: rotateRate
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 1927095934725912879, guid: a9b081014bad86f4a80b60284279d21b, type: 3}
       propertyPath: playerCamera
@@ -46581,7 +46758,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -580, y: 180}
+  m_AnchoredPosition: {x: -420, y: 120}
   m_SizeDelta: {x: 240, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1720064263
@@ -46636,6 +46813,18 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -53946,6 +54135,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 761764158}
+        m_TargetAssemblyTypeName: RoomGUIManager, Assembly-CSharp
+        m_MethodName: ToggleButton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 13
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 761764155}
         m_TargetAssemblyTypeName: RoomManager, Assembly-CSharp
         m_MethodName: ToggleDoors
@@ -59497,8 +59698,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.08, y: 0.12842369, z: 0.17959052}
-  m_Center: {x: 0, y: -0.0002965927, z: -0.019795269}
+  m_Size: {x: 0.08, y: 0.12842369, z: 0.20734623}
+  m_Center: {x: 2.1779364e-10, y: -0.0002965927, z: -0.005917616}
 --- !u!54 &4303747686036134635
 Rigidbody:
   m_ObjectHideFlags: 0

@@ -7,7 +7,8 @@ public class RoomManager : MonoBehaviour
     [SerializeField] private GameObject housePlants;
     [SerializeField] private GameObject dishware;
     [SerializeField] private GameObject toaster;
-    [SerializeField] private GameObject electricalHazards; 
+    [SerializeField] private GameObject electricalHazards;
+    [SerializeField] private GameObject smallObjectMarker;
     [SerializeField] private GameObject smallObjSpawnBoundsObj;
     [SerializeField] private GameObject[] smallObjects; 
     [SerializeField] private GameObject[] windows;
@@ -85,7 +86,15 @@ public class RoomManager : MonoBehaviour
 
         Vector3 spawnPos = GetRandomSpawnPointFromBounds(spawnboundsColliders[spawnboxChoice].bounds);
 
-        Instantiate(smallObjects[id], spawnPos, Quaternion.identity);
+        GameObject smallObject = Instantiate(smallObjects[id], spawnPos, Quaternion.identity);
+
+        GameObject marker = Instantiate(smallObjectMarker, smallObject.transform.position, Quaternion.identity);
+
+        MarkerControls markControls = marker.GetComponentInChildren<MarkerControls>();
+
+        markControls.SetCamera(ControlManager.Instance.GetLivingRoomCamera());
+
+        markControls.SetTargetObj(smallObject);
     }
 
     public void ClearSmallObjects()
