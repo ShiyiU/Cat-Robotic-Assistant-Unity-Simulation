@@ -453,6 +453,7 @@
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First Person Player/SceneSwitchGen.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow.cs"
 "Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows/opencloseWindow1.cs"
+"Assets/Scripts/CatMover.cs"
 "Assets/Scripts/MarkerControls.cs"
 "Assets/Scripts/RoomGUIManager.cs"
 "Assets/Scripts/RoomManager.cs"
