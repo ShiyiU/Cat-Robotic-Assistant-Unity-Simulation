@@ -73,7 +73,9 @@
     <Compile Include="Assets\Yuetility-Studios\YueDestructible\Scripts\YueDestructableAudioSourceTemplate.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\ControlManager.cs" />
     <Compile Include="Assets\Scripts\MarkerControls.cs" />
+    <Compile Include="Assets\Cat Props\CatInstance\DevicalCatCode.cs" />
     <Compile Include="Assets\Scripts\CatMover.cs" />
+    <Compile Include="Assets\Scripts\ScenarioInstructions\CatScenario.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Slide\BRGlassDoor.cs" />
     <Compile Include="Assets\Scripts\VectorRobotController.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Drawer\Z Axis\Drawer_Pull_Z.cs" />
@@ -82,15 +84,20 @@
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseDoor.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\First Person Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\ScenarioInstructions\ScenarioInstructionsFactory.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Doors\opencloseStallDoor.cs" />
+    <Compile Include="Assets\Scripts\MenuManager.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\TableFlip\TableFlipL.cs" />
+    <Compile Include="Assets\Scripts\Simulation Manager.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Closet\ClosetopencloseDoor.cs" />
+    <Compile Include="Assets\Scripts\ScenarioInstructions\EatPlantScenario.cs" />
     <Compile Include="Assets\Scripts\RoomManager.cs" />
     <Compile Include="Assets\Yuetility-Studios\YueDestructible\Scripts\YueDestructible.cs" />
     <Compile Include="Assets\Brick Project Studio\_BPS Basic Assets\Common\Scripts and Animations\Windows\opencloseWindow1.cs" />
     <Compile Include="Assets\Scripts\RoomGUIManager.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\Windows\opencloseWindowApt.cs" />
     <Compile Include="Assets\Brick Project Studio\Apartment Kit\Common\Scripts &amp; Animation\OvenOpen\OvenFlip.cs" />
+    <Compile Include="Assets\Scripts\ScenarioInstructions\FollowCatScenario.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

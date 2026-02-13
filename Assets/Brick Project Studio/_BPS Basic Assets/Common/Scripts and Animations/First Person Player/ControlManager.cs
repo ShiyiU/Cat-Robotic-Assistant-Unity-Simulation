@@ -28,7 +28,7 @@ public class ControlManager : MonoBehaviour
         }
 
         Instance = this;
-        DontDestroyOnLoad(gameObject);
+        //DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
@@ -68,6 +68,22 @@ public class ControlManager : MonoBehaviour
         }
 
         cameras[activeCamID].enabled = true; 
+    }
+
+    public void ReinitializeCam()
+    {
+        cameras[1].enabled = false; 
+
+        activeCamID = 0;
+        currentCamState = CameraState.FREE_VIEW;
+        livingRoomViewCanvas.SetActive(false);
+        cameras[activeCamID].enabled = true; 
+    }
+
+    public void SetVectorCams(Camera firstPerson, Camera thirdPerson)
+    {
+        cameras[2] = firstPerson;
+        cameras[3] = thirdPerson; 
     }
 
     public Camera GetLivingRoomCamera()

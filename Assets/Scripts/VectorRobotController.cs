@@ -11,6 +11,8 @@ public class VectorRobotController : MonoBehaviour
     [SerializeField] private Camera robotCamera; 
     [SerializeField] private Rigidbody[] leftWheels;
     [SerializeField] private Rigidbody[] rightWheels;
+    public Camera firstPersonCam;
+    public Camera thirdPersonCam; 
     private int screenShotIndex = 0;
     private int screenshotWidth = 640;
     private int screenshotHeight = 360; 
