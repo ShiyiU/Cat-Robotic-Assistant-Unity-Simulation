@@ -3,6 +3,8 @@
 
 PetGuard is a software-based service that enables consumer robots (e.g., Vector or similar desktop robots) to actively engage in a pet’s daily life—supporting wellbeing, preventing mishaps, and providing owners with actionable insights—without being destructive or intrusive.
 
+Link to LLM Processing Repository: https://github.com/Jaswir/Pet-Guards/tree/Kai-branch
+
 ---
 
 ## Why PetGuard?
