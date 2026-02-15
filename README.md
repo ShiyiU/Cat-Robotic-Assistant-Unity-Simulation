@@ -61,4 +61,4 @@ A **Vultr server** acts as the communication bridge between:
 ---
 
 ## Architecture Diagram
-![Architecture diagram](docs/architecture.png)
+![Architecture diagram](architecture.PNG)
